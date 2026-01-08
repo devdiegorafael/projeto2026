@@ -13,10 +13,45 @@
 
     <main>
       <div class="conteudo">
-        <p>Classes são usadas para identificar e estilizar vários elementos em uma página HTML.</p>
-        <p>Uma mesma classe pode ser reutilizada quantas vezes for necessário.</p>
-        <p>IDs são usados para identificar e estilizar um único elemento em uma página HTML.</p>
-        <p>Cada ID deve ser único e não deve se repetir.</p>
+        <h2>O que são Classes?</h2>
+        <p>
+          As <strong>classes</strong> são usadas para aplicar estilos em vários elementos ao mesmo tempo.  
+          Pense nelas como etiquetas que você pode colar em diferentes partes da página para dar a mesma aparência.
+        </p>
+
+        <h3>Exemplo:</h3>
+        <pre>
+&lt;p class="destaque"&gt;Este é um parágrafo destacado.&lt;/p&gt;
+&lt;p class="destaque"&gt;Outro parágrafo com o mesmo estilo.&lt;/p&gt;
+        </pre>
+
+        <p>Resultado: dois parágrafos diferentes, mas ambos recebem o mesmo estilo definido pela classe <code>.destaque</code>.</p>
+
+        <hr>
+
+        <h2>O que são IDs?</h2>
+        <p>
+          Os <strong>IDs</strong> identificam um único elemento na página.  
+          Cada ID deve ser único e não pode se repetir.  
+          É como dar um “nome exclusivo” para um elemento.
+        </p>
+
+        <h3>Exemplo:</h3>
+        <pre>
+&lt;p id="principal"&gt;Este é o parágrafo principal.&lt;/p&gt;
+        </pre>
+
+        <p>Resultado: apenas esse parágrafo pode ser estilizado usando <code>#principal</code> no CSS.</p>
+
+        <hr>
+
+        <h2>Diferença entre Classes e IDs</h2>
+        <ul>
+          <li><strong>Classes</strong>: podem ser usadas em vários elementos.</li>
+          <li><strong>IDs</strong>: devem ser únicos, usados em apenas um elemento.</li>
+        </ul>
+
+        <p><em>Dica:</em> use classes para estilos repetidos e IDs para elementos únicos, como cabeçalhos ou seções específicas.</p>
       </div>
 
       <a href="index.html" class="botao">Voltar para Home</a>
